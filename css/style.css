@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    border:0;
+    margin: 0;
+}
+.nav-css {
+    background-color: #999999;
+    border: 2px solid black;
+}
+#menu1, #menu2, #menu3 {
+    border: 2px solid;
+    padding: 20px;
+    background-color: #999999;
+    margin-bottom: 10px;  
+}
+.menu-title {
+    font-weight: bold;
+}
+.container-header {
+    background-color: #999999;
+    color: black;
+    border: 2px solid black;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+}
+#navbar {
+    color: black;
+}
+#nav-list a {
+    color: black;
+    text-align: center;
+   /* background-color: #fff;*/
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+#menu2 > a {
+    color: black;
+}
